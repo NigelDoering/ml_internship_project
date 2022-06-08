@@ -10,14 +10,14 @@ if time > 6:
 elif time < 6:
     print("We can stay a little longer.")
 temperature = input("Do you know todays temperature? ")
-    if temperature > 30:
-        print("Its a hot day")
-        print("Drink plenty of water")
-    elif temperature > 20:
+if temperature > 30:
+    print("Its a hot day")
+    print("Drink plenty of water")
+elif temperature > 20:
         print("Its a nice day")
-    elif temperature > 10:
+elif temperature > 10:
         print("Its a bit cold")
-    else:
+else:
         print("Its cold")
 x = 3 > 2 
 print(x)
