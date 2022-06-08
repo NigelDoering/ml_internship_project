@@ -19,3 +19,7 @@ temperature = input("Do you know todays temperature? ")
         print("Its a bit cold")
     else:
         print("Its cold")
+x = 3 > 2 
+print(x)
+x = (10 + 3) * 2
+print(x)
